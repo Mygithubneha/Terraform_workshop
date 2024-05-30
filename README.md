@@ -1,7 +1,9 @@
 🌟 Terraform Zero to Hero Course 🌟
 
 🗓️ Day 1: Getting Started with Terraform
+
 🚀 Introduction to Terraform and IaC
+
 In this session, we'll introduce you to the fundamental concepts of Terraform and Infrastructure as Code (IaC). Learn why Terraform is crucial for managing infrastructure and how IaC streamlines provisioning. 🌐
 
 💻 Installing Terraform on MacOS, Linux, and Windows
@@ -23,7 +25,9 @@ Take your skills up a notch by provisioning an EC2 instance on AWS using Terrafo
 Understand the importance of Terraform state files. Learn about desired and current states, and how Terraform manages these states to ensure infrastructure consistency. 📄
 
 🗓️ Day 2: Advanced Terraform Configuration
+
 🔍 Understanding Providers and Resources
+
 Deepen your knowledge of providers and resources. Explore the role of different providers for various cloud platforms and understand how resources define infrastructure components. 🌈
 
 📊 Variables and Outputs in Terraform
@@ -36,7 +40,9 @@ Elevate your configurations with conditional expressions, adding logic to your c
 Master the art of debugging Terraform configurations. Plus, learn why proper formatting with terraform fmt is crucial. 🔍
 
 🗓️ Day 3: Building Reusable Infrastructure with Modules
+
 🧩 Creating Modular Infrastructure with Terraform Modules
+
 Unlock the potential of reusability with Terraform modules. Understand how modules enable you to create shareable and organized infrastructure components. 📦
 
 🔧 Local Values and Data Sources
@@ -52,7 +58,9 @@ Utilize module outputs to access critical information or propagate data to your 
 Embark on a journey through the Terraform Registry. Discover pre-built, community-contributed modules and learn how to incorporate them into your own configurations. 🌟
 
 🗓️ Day 4: Collaboration and State Management
+
 🤝 Collaborating with Git and Version Control
+
 Collaborate effectively using Git and version control. Grasp fundamental Git commands such as cloning, pulling, and pushing repositories to enhance teamwork. 📂
 
 🔒 Handling Sensitive Data and .gitignore
@@ -68,7 +76,9 @@ Get hands-on experience configuring an S3 bucket as a backend for remote state s
 Dive into state locking and the prevention of concurrent updates. Implement state locking using DynamoDB as a backend mechanism, ensuring state consistency. 🔐
 
 🗓️ Day 5: Provisioning and Provisioners
+
 🔨 Understanding Provisioners in Terraform
+
 Learn about provisioners, mechanisms for executing actions on resources during creation and destruction. Understand how they facilitate customization. ⚙️
 
 🌐 Remote-exec and Local-exec Provisioners
@@ -81,6 +91,7 @@ Discover when to use provisioners during resource creation or destruction. Confi
 Gain insights into handling provisioner failures. Learn about retry mechanisms, timeouts, and the on_failure attribute to control provisioner behavior on failure. 🛡️
 
 🗓️ Day 6: Managing Environments with Workspaces
+
 🏢 Introduction to Terraform Workspaces
 Understand the concept of workspaces and their role in managing different environments. Learn how workspaces aid in isolating configurations. 🌐
 
@@ -91,6 +102,7 @@ Learn how to create new workspaces and switch between them using terraform works
 Dive deeper into how workspaces streamline environment management. Comprehend their benefits in maintaining separate state files for various settings. 🗃️
 
 🗓️ Day 7: Security and Advanced Topics
+
 🔐 HashiCorp Vault Overview
 Gain an overview of HashiCorp Vault, a powerful tool for secret management and data protection. Understand its significance in maintaining secure configurations. 🛡️
 
